@@ -2,6 +2,9 @@ return {
   -- Split Window Navigator
    'christoomey/vim-tmux-navigator',
 
+  -- Snippets 
+    "rafamadriz/friendly-snippets",
+
    ---- Auto Brackets
    {
      "windwp/nvim-autopairs",
@@ -50,8 +53,16 @@ return {
    'AndrewRadev/tagalong.vim',
 
 
-   -- Git 
+   ---- Git ---- 
    'APZelos/blamer.nvim',
+
+  {
+    'lewis6991/gitsigns.nvim',
+    event = "BufReadPre",
+    config = function()
+      require'gitsigns'.setup()
+    end
+  },
 
 
 }

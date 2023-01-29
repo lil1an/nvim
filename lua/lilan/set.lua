@@ -37,15 +37,22 @@ vim.o.splitbelow = true
 -- Highlight Cursor line
 vim.o.cursorline = true
 
+-- Others
+vim.o.signcolumn = "yes"
+vim.o.colorcolumn = 80
+
+
+--------- GLOBAL ----------
+
 -- Latex
 vim.g.vimtex_view_method = "skim"
 
 -- Leader Key
 vim.g.mapleader = " "
 
--- Others
-vim.o.signcolumn = "yes"
-vim.o.colorcolumn = 80
+-- Git
+vim.g.blamer_enabled = 1
+
 
 
 
