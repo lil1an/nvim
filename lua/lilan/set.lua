@@ -46,6 +46,7 @@ vim.o.colorcolumn = 80
 
 -- Latex
 vim.g.vimtex_view_method = "skim"
+-- vim.g.vimtex_quickfix_ignore_filters = "Marginpar on page"
 
 -- Leader Key
 vim.g.mapleader = " "

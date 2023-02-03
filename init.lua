@@ -12,5 +12,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lilan")
-
 require("lazy").setup("plugins")
